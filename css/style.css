@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+    background: #fff;
+}
+
+.navbar .navbar-brand img {
+    width: 100px;
+    margin-left: 80px;
+}
+
+.navbar-nav {
+    margin-right: 80px;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+
+.nav-link {
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    color: brown !important;
+    margin-right: 25px;
+}
+.btn{
+    margin-top: 5px;
+}
+
+
+/* carousel slider */
+.carousel-item img {
+    margin-top: 110px;
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    margin-top: 82px;
+}
+
+/* our courses */
+#ourclasses{
+    background: lightblue;
+    padding-bottom: 30px;
+}
+.title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 3px 2px 1px yellow;
+}
+.sm-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brand {
+    height: 200px;
+    width: 260px;
+    background-color: #393033 !important;
+    line-height: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 20px 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-shadow: 3px 2px 1px red;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+}
+.cover{
+    transition: all 0.5s;
+}
+.cover:hover{
+    transform: scale(1.1);
+}
+
+/* our team */
+
+.card{
+    margin: 40px auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+    border: none !important;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.card-text{
+    margin-bottom: 8px;
+}
+
+/* contact us */
+#contact-us{
+    padding-bottom: 40px ;
+}
+.s-icon{
+    font-size: 30px;
+    margin: 0 15px;
+}
+
+/* about us */
+.about_us{
+    margin-top: 125px;
+    padding: 40px 0;
+    background:lightskyblue;
+}
+.about_us p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+/* ---footer--- */
+footer {
+    font-size: 18px;
+    padding: 30px 0 20px;
+}
+
+footer p {
+    color: #a5a5a5;
+    margin-bottom: 0;
+}
+
+
+footer p a {
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+footer p a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/* whatsapp icon */
+.whatsaap{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+.whatsaap img{
+    width:80px;
+}
