@@ -1,38 +1,49 @@
 @media screen and (max-width:776px) {
-    .carousel-item img{
+    .carousel-item img {
         height: 400px;
-        
+
     }
-    .navbar .navbar-brand img{
+
+    .navbar .navbar-brand img {
         width: 80px;
         margin-left: 15px;
-    
-    }    
+
+    }
 }
+
 @media screen and (max-width:576px) {
-    *{
+    * {
         cursor: default;
     }
-    .carousel-item img{
+
+    .carousel-item img {
         margin-top: 95px;
         height: 260px;
     }
 
-    .col-lg-6 iframe{
+    .col-lg-6 iframe {
         height: 300px;
     }
-    .about_us p{
+
+    .about_us {
+        margin-top: 80px;
+    }
+
+    .about_us p {
         font-size: 20px;
     }
+
     footer {
         font-size: 12px;
     }
-    .whatsaap{
+
+    .whatsaap {
         position: fixed;
         bottom: 20px;
         right: 10px;
     }
-    .whatsaap img{
-        width:50px;
+
+    .whatsaap img {
+        width: 50px;
     }
 }

@@ -67,6 +67,7 @@ body {
 }
 
 .box form input {
+    display: block;
     width: 100%;
     padding: 0px 5px;
     font-size: 20px;
